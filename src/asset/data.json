@@ -1,0 +1,232 @@
+{
+    "labels": [
+      {
+        "id": "pork",
+        "label": "Pork"
+      },
+      {
+        "id": "seafood",
+        "label": "Seafood"
+      },
+      {
+        "id": "kids",
+        "label": "Kids"
+      },
+      {
+        "id": "chicken",
+        "label": "Chicken"
+      },
+      {
+        "id": "beef",
+        "label": "Beef"
+      },
+      {
+        "id": "vegetarian",
+        "label": "Vegetarian"
+      },
+      {
+        "id": "breakfast",
+        "label": "Breakfast"
+      }
+    ],
+    "meals": [
+      {
+        "id": "meal1",
+        "title": "3 course chicken",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 9.99,
+        "labels": [
+          "chicken",
+          "breakfast"
+        ],
+        "img": "https://shorturl.at/hkVZ8",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "id": "meal2",
+        "title": "3 course Beef",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 19.99,
+        "labels": [
+          "beef"
+        ],
+        "img": "https://shorturl.at/Gorm7",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "id": "meal3",
+        "title": "3 course Vegetarian",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 79.99,
+        "labels": [
+          "vegetarian"
+        ],
+        "img": "https://shorturl.at/It41K",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "id": "meal4",
+        "title": "3 course Seafood",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 49.99,
+        "labels": [
+          "seafood"
+        ],
+        "img": "https://shorturl.at/ZSfS9",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "id": "meal5",
+        "title": "3 course Pork",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 39.99,
+        "labels": [
+          "pork"
+        ],
+        "img": "https://shorturl.at/4WxhO",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "id": "meal6",
+        "title": "3 course Kids",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 29.99,
+        "labels": [
+          "kids",
+          "breakfast"
+        ],
+        "img": "https://shorturl.asia/citS4",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      },
+      {
+        "id": "meal7",
+        "title": "3 course Chicken 2",
+        "starter": "Lorem Ipsum",
+        "desert": "Cake",
+        "price": 19.99,
+        "labels": [
+          "chicken"
+        ],
+        "img": "https://shorturl.asia/Hl5d3",
+        "drinks": [
+          {
+            "id": "drink-1",
+            "title": "Vine",
+            "price": 4.99
+          },
+          {
+            "id": "drink-2",
+            "title": "Juice",
+            "price": 5.99
+          },
+          {
+            "id": "drink-3",
+            "title": "Beer",
+            "price": 6.99
+          }
+        ]
+      }
+    ]
+  }
