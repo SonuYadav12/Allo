@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Category from "./Component/Category/filter";
 
 const App = () => {
   return (
-    <div className=' bg-red-800'>
-      Hello World
-      </div>
-  )
-}
+    <div>
+      <Category />
+    </div>
+  );
+};
 
-export default App
+export default App;
