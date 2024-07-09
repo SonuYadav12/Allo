@@ -42,9 +42,10 @@ const Filter = () => {
   };
 
   return (
-    <section className="flex flex-col lg:flex-row m-2 rounded-lg ">
+    <section className="flex flex-col lg:flex-row m-2 ">
+       
       <section className="flex flex-col w-full lg:w-3/4   ">
-        <div className="flex flex-wrap justify-center sm:justify-normal  sm:p-4 mt-2 mb-2  ">
+        <div className="flex flex-wrap justify-center sm:justify-normal sm:p-4 mt-2 mb-2  ">
           <div
             className={`border-2 border-light-color py-2 px-4 sm:px-14 rounded-lg m-2 cursor-pointer ${
               selectedLabel === "all"
@@ -69,6 +70,7 @@ const Filter = () => {
             </div>
           ))}
         </div>
+        <hr className=" bg-black h-0.5 w-full"/>
         <Dash items={itemsInPage} getData={handleOrderData} />
         <div className="flex justify-center lg:justify-end  p-4 sm:p-8 mb-8 rounded-b-2xl space-x-2 sm:space-x-6">
           {pageNumbers.map((number) => (
