@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import food from "../../asset/data.json";
 import Dash from "../Home/Mainpage";
-import Price from "../Price/Pricebox.js";
+import Prices from "../Price/Pricebox.js";
 
 const Filter = () => {
   const [items, setItems] = useState(food?.meals || []);
@@ -90,7 +90,7 @@ const Filter = () => {
         </div>
       </section>
       <section className=" flex  justify-center">
-        <Price
+        <Prices
           className="w-full lg:w-1/4"
           ordered={ordered}
           name={name}
