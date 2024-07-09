@@ -52,9 +52,9 @@ function Mainpage(props) {
         <div className="dashboardWrapper bg-secondary p-12">
             <div className="dashboard w-2/3 md:w-full">
                 {props.items.map(data => (
-                    <div className="foodWrapper flex justify-around py-12 border-b-2 border-primary first:pt-0" key={data.id}>
-                        <div>
-                            <img className="foodImg h-68 w-100 object-cover object-center mr-16 mb-8 md:w-full md:h-128 md:mb-0" src={data.img} alt="Image of mentioned food" />
+                    <div className="flex justify-around items-center py-12 border-b-2 border-primary first:pt-0" key={data.id}>
+                        <div className=' h-96 w-80'>
+                            <img className="  object-cover object-center mr-16 mb-8 md:w-full md:h-128 md:mb-0" src={data.img} alt="Image of mentioned food" />
                         </div>
                         <div className="foodInfo">
                             <p className="foodType text-lg font-bold mb-2">{data.title} + drink</p>
@@ -63,11 +63,11 @@ function Mainpage(props) {
                             <p className="desert mb-1"><strong>Desert:</strong> {data.desert}</p>
                             <p className="drinks mb-1"><strong>Selected drink:</strong> {data.id === mainId ? name : ''}</p>
                             <div className="moreInfo flex justify-between mt-8 md:block">
-                                <div className="drinkImgWrapper flex">
+                                <div className=" flex">
                                     {drinksWithImg.map(drink => (
                                         <div key={drink.id}>
                                             <img
-                                                className={`drinkImg w-28 mr-6 border border-secondary ${mainId === data.id && drinkId === drink.id ? 'border-4 border-tertiary' : ''}`}
+                                                className={`drinkImg w-28 h-28 mr-6 border border-secondary ${mainId === data.id && drinkId === drink.id ? 'border-4 border-tertiary' : ''}`}
                                                 src={drink.img}
                                                 alt={drink.alt}
                                                 onClick={() => selectDrink(data.id, drink.id, drink.title, drink.price)}
