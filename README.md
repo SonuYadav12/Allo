@@ -3,6 +3,13 @@ ALLO-DINE
 
 This project is a web application built with React.js that integrates Clerk for user authentication and interacts with an external API to fetch data related to food and drink options. The application allows users to select their preferred meals and beverages, provides pagination for browsing through available options, and ensures a responsive user interface for seamless usability across different devices.
 
+
+SCREENSHOTS
+--------------------------------------------------------------------------------------------------
+
+
+
+
 Table of Contents
 -----------------------------------
 1.Introduction
