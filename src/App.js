@@ -1,12 +1,12 @@
 import React from "react";
-import Category from "./Component/Category/Filter";
-import Topbar from "./Component/Navbar/Topbar";
+import Topbar from "./Component/Navbar/Topbar"
+import Filter from "./Component/Category/Filter"
 
 const App = () => {
   return (
     <div className=" ">
       <Topbar/>
-      <Category />
+      <Filter/>
     </div>
   );
 };
