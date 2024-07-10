@@ -42,45 +42,43 @@ const Filter = () => {
   };
 
   return (
-    <section className="flex flex-col lg:flex-row m-2 ">
-       
-      <section className="flex flex-col w-full lg:w-3/4   ">
-        <div className="flex flex-wrap justify-center sm:justify-normal sm:p-4 mt-2 mb-2  ">
+    <section className="flex flex-col lg:flex-row m-4  lg:space-x-4">
+      <section className="flex flex-col w-full lg:w-3/4 bg-white p-4 rounded-lg shadow-lg">
+        <div className="flex flex-wrap justify-center sm:justify-start mb-4 space-x-2">
           <div
-            className={`border-2 border-light-color py-2 px-4 sm:px-14 rounded-lg m-2 cursor-pointer ${
+            className={`border-2 py-2 px-4 rounded-lg cursor-pointer transition-all duration-300 ${
               selectedLabel === "all"
-                ? "border-tertiary bg-red-600"
-                : " bg-gray-100"
+                ? "border-tertiary bg-red-600 text-white"
+                : "bg-gray-100 hover:bg-red-600 hover:text-white"
             }`}
             onClick={() => handleFilter("all", "all")}
           >
-            <p className="filters">All</p>
+            <p className="font-medium">All</p>
           </div>
           {food.labels.map((label) => (
             <div
-              className={`border-2   border-light-color py-2 px-2 m-2 sm:px-14 rounded-lg  hover:bg-orange-400 cursor-pointer ${
+              className={`border-2 py-2 px-4 rounded-lg cursor-pointer transition-all duration-300 ${
                 selectedLabel === label.id
-                  ? "border-tertiary bg-light-color text-tertiary"
-                  : ""
+                  ? "border-tertiary bg-red-600 text-white"
+                  : "bg-gray-100 hover:bg-orange-400 hover:text-white"
               }`}
               key={label.id}
               onClick={() => handleFilter(label.label.toLowerCase(), label.id)}
             >
-              <p className="filterName">{label.label}</p>
+              <p className="font-medium">{label.label}</p>
             </div>
           ))}
         </div>
-        <hr className=" bg-black h-0.5 w-full"/>
+        <hr className="bg-black h-0.5 mb-4" />
         <Dash items={itemsInPage} getData={handleOrderData} />
-        <div className="flex justify-center lg:justify-end  p-4 sm:p-8 mb-8 rounded-b-2xl space-x-2 sm:space-x-6">
+        <div className="flex justify-center lg:justify-end mt-4 space-x-2">
           {pageNumbers.map((number) => (
             <div
-              className={`py-2 px-4 border-2 border-primary rounded-lg cursor-pointer transition-all duration-300 
-                                ${
-                                  currPage === number
-                                    ? "border-tertiary text-tertiary bg-gray-200"
-                                    : "hover:bg-gray-100"
-                                }`}
+              className={`py-2 px-4 border-2 rounded-lg cursor-pointer transition-all duration-300 ${
+                currPage === number
+                  ? "border-tertiary text-tertiary bg-gray-200"
+                  : "hover:bg-gray-100"
+              }`}
               key={number}
               onClick={() => changePage(number)}
             >
@@ -89,9 +87,8 @@ const Filter = () => {
           ))}
         </div>
       </section>
-      <section className=" flex  justify-center">
+      <section className="w-full lg:w-1/4">
         <Prices
-          className="w-full lg:w-1/4"
           ordered={ordered}
           name={name}
           totalPrice={totalPrice}
