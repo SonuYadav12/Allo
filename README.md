@@ -5,17 +5,26 @@ This project is a web application built with React.js that integrates Clerk for 
 
 Table of Contents
 -----------------------------------
-
 1.Introduction
+
 2.Features
+
 3.Technologies Used
+
 4.Installation
+
 5.Getting Started
+
 6.Configuration
+
 7.Running the Application
+
 8.Usage
+
 9.API Reference
+
 10.Contributing
+
 11.License
 
 Introduction
@@ -26,9 +35,13 @@ Features
 ------------------------------------------------------------------------------------------------
 
 1.Authentication: Users can log in using Clerk for secure authentication.
+
 2.Data Fetching: Utilizes an API to fetch food and drink data.
+
 3.Selection: Users can select their preferred food and drink items.
+
 4.Pagination: Provides pagination for easy navigation through items.
+
 5.Responsive UI: Ensures a seamless experience across various devices.
  
 Technologies Used
