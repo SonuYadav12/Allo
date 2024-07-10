@@ -8,6 +8,23 @@ SCREENSHOTS
 --------------------------------------------------------------------------------------------------
 
 
+![Screenshot 2024-07-10 195501](https://github.com/SonuYadav12/Allo/assets/101589973/70e8d08c-7145-4b84-8774-3fcc727d3e49)
+
+![Screenshot 2024-07-10 195622](https://github.com/SonuYadav12/Allo/assets/101589973/3926ebb1-6fbe-475d-820d-164801df6d9e)
+
+![Screenshot 2024-07-10 195557](https://github.com/SonuYadav12/Allo/assets/101589973/e6895834-f315-4c02-b388-2b3c2449112f)
+
+![Screenshot 2024-07-10 195706](https://github.com/SonuYadav12/Allo/assets/101589973/d0abb4e1-0762-4545-8050-e6344b51fb45)
+
+![Screenshot 2024-07-10 195910](https://github.com/SonuYadav12/Allo/assets/101589973/bd26f825-33c8-4b66-a29b-f571306ec5ef)
+
+![Screenshot 2024-07-10 195940](https://github.com/SonuYadav12/Allo/assets/101589973/6266f9e5-5738-4de2-9277-692c9a40cc29)
+
+![Screenshot 2024-07-10 200005](https://github.com/SonuYadav12/Allo/assets/101589973/88746ae4-7d60-4a77-87be-faefa0b131f4)
+
+![Screenshot 2024-07-10 195818](https://github.com/SonuYadav12/Allo/assets/101589973/6a5951d1-5daf-4bbd-b5b9-43290a1503cc)
+
+![Screenshot 2024-07-10 195831](https://github.com/SonuYadav12/Allo/assets/101589973/6949b52b-5db1-48b9-bd79-3092d4959535)
 
 
 Table of Contents
