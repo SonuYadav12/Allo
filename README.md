@@ -57,7 +57,9 @@ Technologies Used
 Frontend:
 --------------------
 1.React.js
+
 2.Tailwind CSS
+
 3.Clerk for authentication
 
 Installation
@@ -96,7 +98,7 @@ Running the Application
 Run the application:
 npm start
 
-5.Open in your browser:
+Open in your browser:
 
 Navigate to http://localhost:3000 to view the application.
 
@@ -106,9 +108,11 @@ Usage
 Authentication
 --------------------
 1.Sign Up / Sign In: Use the Clerk authentication form to create an account or log in with existing credentials.
-Selecting Food and Drinks
+
 2.Browse Options: Navigate through the available food and drink items displayed on the main page.
+
 3.Filtering: Use the category filters to narrow down options based on preferences.
+
 4.Selection: Click on items to select them, adjusting quantities or preferences as needed.
 
 Pagination
